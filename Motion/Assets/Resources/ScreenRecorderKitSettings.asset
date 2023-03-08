@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e53cb5f3634b40bfb5f47b8cf07fdd2, type: 3}
+  m_Name: ScreenRecorderKitSettings
+  m_EditorClassIdentifier: 
+  m_videoRecorderSettings:
+    m_isEnabled: 1
+    m_usesMicrophone: 1
+    m_androidProperties:
+      m_videoQuality: 1
+      m_customVideoBitrate:
+        m_allowCustomBitrates: 0
+        m_bitrateFactor: 0
+      m_usesSavePreview: 1
+      m_allowControllingAudio: 1
+      m_prioritiseAppAudioWhenUsingMicrophone: 0
+  m_gifRecorderSettings:
+    m_isEnabled: 1
+    m_width: 320
+    m_height: 200
+    m_autoAspect: 1
+    m_framePerSecond: 15
+    m_repeat: 0
+    m_quality: 15
+    m_bufferSize: 3
+    m_threadPriority: 1

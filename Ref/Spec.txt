@@ -1,0 +1,40 @@
+App Opens
+
+- app opens first showing camera preview
+- touch screen to show menu
+-- select front or back camera
+-- select action zone
+-- start recording
+-- play/stop current recording (current session only)
+-- play/stop previous recording (current session only)
+-- scrubbing playback
+
+Select Action Zone
+
+- drag zone selection
+- let go to accept
+- menu reappears
+
+Record
+
+1. press record button
+2. waits for motion and in zone selection (if no zone selection was made, zone is full screen)
+3. start recording when motion detected in zone
+4. stop recording when no motion detected in zone
+5. recording playback loops
+6. can touch preview window to swap looping video and camera preview
+7. when motion detected again steps 3-5 are repeated
+
+Playback
+
+- when touch screen (not camera preview window) menu appears and playback (current) button pressed
+- current recording played
+- menu button changes to a stop button to stop playback
+- when stopped, button changes back to play button
+
+Playback (previous)
+
+- when touch screen (not camera preview window) menu appears and playback (previous) button pressed
+- previous recording played
+- menu button changes to a stop button to stop playback
+- when stopped, button changes back to play button
